@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster:wght@100;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
 
 :root {
     --off-white: #E5E7EB;
@@ -8,6 +9,7 @@ body {
     width: 100vw;
     margin: 0;
     display: flex;
+    font-family: Roboto, sans-serif;
 }
 
 .picture {
@@ -37,6 +39,7 @@ body {
     font-family: Lobster, sans-serif;
     font-weight: 100;
     letter-spacing: 0.08em;
+    color: white;
 }
 
 a {
@@ -53,6 +56,12 @@ a {
     align-items: center;
 }
 
-h1 {
-    color: white;
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero {
+    padding: 0 2em;
 }
