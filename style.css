@@ -4,7 +4,9 @@
 :root {
     --off-white: #E5E7EB;
     --shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  }
+    --pinky: rgb(224, 105, 178);
+}
+
 body {
     height: 100vh;
     width: 100vw;
@@ -16,7 +18,7 @@ body {
 .picture {
     background-image: url(background.jpg);
     background-position: center;
-    background-size:cover;
+    background-size: cover;
     background-repeat: no-repeat;
     width: 50%;
 
@@ -43,13 +45,13 @@ body {
     margin-right: 10px;
 }
 
-a {
+.credits a {
     color: var(--off-white);
 }
 
 .logo-bar {
     height: 150px;
-    background-color:rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.3);
     margin-top: 20vh;
     display: flex;
     justify-content: center;
@@ -63,7 +65,7 @@ a {
     background-color: rgb(250, 250, 250);
 }
 
-.content > * {
+.content>* {
     padding: 0 3rem;
 }
 
@@ -71,7 +73,7 @@ label {
     text-transform: uppercase;
     font-weight: bold;
     font-size: small;
-    color:dimgray;
+    color: dimgray;
 }
 
 input {
@@ -112,7 +114,7 @@ input:focus {
 }
 
 button {
-    background-color: rgb(226, 130, 190);
+    background-color: var(--pinky);
     font-weight: bold;
     color: white;
     padding: 1rem 2rem;
@@ -120,4 +122,10 @@ button {
     border-radius: 7px;
     border-style: none;
     box-shadow: var(--shadow);
+}
+
+.lower a {
+    color: var(--pinky);
+    font-weight: bold;
+    text-decoration: none;
 }
