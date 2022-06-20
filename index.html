@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Doggies!</title>
     <script src="app.js" defer></script>
-    <link rel="stylesheet" href="style.css">  
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div class="picture">
         <div class="logo-bar">
@@ -14,14 +16,43 @@
             <h1 class="title">DOGGIFY</h1>
         </div>
         <div class="credits">
-            Image by <a href="https://unsplash.com/@hannah15198">Hannah Lim</a> on <a href="https://unsplash.com/photos/U6nlG0Y5sfs">Unsplash</a>
+            Image by <a href="https://unsplash.com/@hannah15198">Hannah Lim</a> on <a
+                href="https://unsplash.com/photos/U6nlG0Y5sfs">Unsplash</a>
         </div>
     </div>
     <div class="content">
         <div class="hero">
-            <h2>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started.</h2>
-            <h2>You <em>know</em> you want to.</h2>    
+            <h2>This is not a real online service! You know you need something like this in your life to help you
+                realize your deepest dreams. Sign up <em>now</em> to get started.</h2>
+            <h2>You <em>know</em> you want to.</h2>
         </div>
+        <form action="#" method="post">
+            <h2>Let's do this!</h2>
+            <div class="inputs">
+                <div class="column">
+                    <label for="first_name">First Name</label>
+                    <input type="text" name="first_name" id="first_name">
+    
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email">
+                    
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password">
+                </div>
+                <div class="column">
+    
+                    <label for="last_name">Last Name</label>
+                    <input type="text" name="last_name" id="last_name">
+                    
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" name="phone" id="phone">
+                    
+                    <label for="c_password">Confirm Password</label>
+                    <input type="password" name="c_password" id="c_password">
+                </div>
+            </div>
+        </form>
     </div>
 </body>
+
 </html>
